@@ -1,0 +1,152 @@
+body{
+   
+     width:355px;
+    height: 410px; 
+    font-family: 'Rocher';
+    font-size: 15px;
+    /* background-color:rgb(175, 226, 247); */
+    /* background-color: rgb(15, 78, 105); */
+    background-image: linear-gradient(rgb(60, 149, 244),rgb(175, 226, 247),rgb(15, 78, 105));  
+}
+html{
+  border:2px solid rgb(15, 78, 105);
+}
+
+.full{
+ 
+  
+  background-size: cover;
+}
+
+.drpdwn a{
+    display:block;
+}
+.drpbtn:hover{
+    display:none;
+}
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+  
+ 
+  @font-palette-values --Greys {
+    font-family: Rocher;
+    base-palette: 7;
+     /* base-palette: 7; */
+    }
+  
+  .grey{
+    font-palette:--Greys;
+  }
+  .from{
+    display: block;
+    width:345px;
+    height: 120px;
+    
+  }
+  .to{
+    width:345px;
+    height: 120px; 
+  }
+.mid_smbl{
+  list-style: none;
+  
+}
+.mid_smbl li{
+  display: inline;
+  margin:0px;
+}
+#btn{
+  margin-left: 20px;
+  margin-bottom:10px;
+  width:310px;
+  height: 40px;
+   border:4px solid rgb(15, 78, 105); 
+/* border:4px solid rgb(7, 130, 183); */
+  border-radius: 10px;
+}
+.exchange{
+  width:50%;
+  padding: 8px;
+}
+#left{
+  margin-left:-30px;
+  margin-right: 8px;
+}
+#right{
+  margin-left:10px;
+  margin-right: 5px;
+}
+.first{
+  padding:0px;
+  list-style: none;
+
+}
+ ul li  {
+  padding:0px;
+} 
+.mode{
+  margin-left: 120px; 
+  margin-bottom: 10px; 
+ background-color:rgb(15, 78, 105);
+ /* background-color: rgb(175, 226, 247); */
+ border:2px solid black;
+ border-radius: 10px;
+}
+
+
+.heading{
+ font-size: 21px;
+ display: inline;
+ 
+}
+textarea{
+  border:3px solid rgb(15, 78, 105); 
+  border-radius: 8px;
+ 
+  font-size: 17px;
+  font-weight:bolder;
+  background:rgba(255, 255, 255, 0);
+  box-shadow: 0 3px 5px 5px rgba(0, 0, 0, 0.5);
+  
+}
+select{
+  border:3px solid rgb(15, 78, 105); 
+  border-radius: 6px;
+}
+
+/* css for changing mode */
+.chng{
+  background-image: linear-gradient(rgb(250, 230, 250),rgb(224, 176, 255),rgb(175, 120, 242),rgb(118, 20, 222)); 
+}
+.selectCol{
+  border:3px solid rgb(20, 222, 33); 
+  border-radius: 6px;
+}
+.mode2{
+  margin-left: 120px; 
+  margin-bottom: 10px; 
+ background-color:rgb(118, 20, 222);
+ 
+ border:2px solid black;
+ border-radius: 10px; 
+}
+.textareaCol{
+  border:3px solid rgb(118, 20, 222); 
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight:bolder;
+  background:rgba(255, 255, 255, 0);
+  box-shadow: 0 3px 5px 5px rgba(0, 0, 0, 0.5);
+  
+}
+@font-palette-values --purple {
+  font-family: Rocher;
+  base-palette: 6;
+  
+  }
+
+.purple{
+  font-palette:--purple;
+}

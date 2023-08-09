@@ -1,0 +1,17 @@
+{
+    "name":"GlobeTalker",
+    "version":"1.0.0",
+    "description":"Unlock a world of understanding with GlobeTalker! Seamlessly break down language barriers as you browse the web, allowing you to effortlessly translate text into multiple languages. Whether you're reading articles, exploring foreign websites, or communicating with people from around the globe,GlobeTalker you to bridge linguistic gaps with ease",
+    "manifest_version":3,
+    "author":"Ayushi Kushwaha",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "GlobeTalker"
+       
+    },
+    "icons":{
+        "128":"img.png"
+    }
+
+    
+}
